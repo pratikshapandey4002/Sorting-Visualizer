@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizer</title>
+    <link rel="stylesheet" href="visualizer.css">
+</head>
+<body>
+    <h1 id="Heading">Sorting Visualizer</h1>
+    <div class="Whole-container">
+        <div id="Side-nav">
+            <label for="user-input">Enter No Of Elements </label>
+            <input id="user-input"  type="number" min="1" max="50" >
+            <button id="user-button">Submit</button>
+    
+            <h3>Choose The Speed of Algorithm</h3>
+            <input type="range" id="speedSlider" min="1" max="500" value="250" oninput="updateSpeed()"> 
+            <div class="sort-button-container">
+                <h3>Choose the Algorithm</h3>
+                <button class="sort-button" onclick="BubbleSort()" >Bubble Sort</button>
+                <button class="sort-button" onclick="InsertionSort()" >Insertion Sort</button>
+                <button class="sort-button" onclick="SelectionSort()" >Selection Sort</button>
+                <button class="sort-button" onclick="Mergesort()" >Merge Sort</button>
+                <button class="sort-button"  onclick="QuickSort()">Quick Sort</button>
+    
+            </div>
+        </div>
+        <div id="container">
+
+        </div>
+
+    </div>
+    
+        
+
+
+ <script src="visualizer.js"></script>   
+</body>
+</html>

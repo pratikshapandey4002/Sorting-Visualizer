@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#Side-nav{
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    gap: .5rem;
+    padding: 0 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+.sort-button-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+#Heading{
+    text-align: center;
+    margin-left: 10rem;
+}
+#user-input{
+    margin:  0 1rem;
+    font-size: xx-large;
+    width: 10rem;
+   margin-left: 4rem;
+}
+#user-button{
+    padding: .5rem 1rem;
+    width: 7rem;
+    margin-left: 5.5rem;
+    border-radius: .5rem;
+    background-color:  rgb(129, 171, 208);
+    border-color: rgb(127, 179, 224);
+    font-size: 18px;
+    color: rgb(68, 64, 64);
+}
+#user-button:hover{
+    background-color:rgb(209, 222, 233);
+    font-weight: bold;
+}
+.sort-button{
+    padding: .7rem 1rem;
+    width: 10rem;
+    margin-left: 4rem;
+    border-radius: .5rem;
+    background-color:  rgb(129, 171, 208);
+    border-color: rgb(127, 179, 224);
+    font-size: 18px;
+    color: rgb(68, 64, 64);
+}
+.sort-button:hover{
+    background-color:rgb(209, 222, 233);
+    font-weight: bold;
+}
+.Whole-container{
+    display: flex;
+}
+#container{
+    border: 1px solid black;
+    width: 100%;
+    margin: .5rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: 4rem;
+    min-width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.array{
+    margin: 0 2px;
+    background-color: aqua;
+    transition: height 0.2s ease;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
